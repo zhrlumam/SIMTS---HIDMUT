@@ -1,0 +1,336 @@
+body {
+    background-color: #f8f9fa !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/* Butoon Primary */
+.btn-primary {
+    width: 150px;
+    height: 45px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #FFF;
+    background-color: #00ADB5;
+    border: none;
+    border-radius: 45px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-primary:hover {
+    background-color: #2fb1b8;
+    box-shadow: 0px 8px 24px #2fb1b875;
+    color: #fff;
+    transform: translateY(-1px);
+    transition: all 0.3s ease 0s;
+}
+
+.btn-secondary {
+    width: 150px;
+    height: 45px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #FFF;
+    background-color: #393E46;
+    border: none;
+    border-radius: 45px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-secondary:hover {
+    background-color: #393E46;
+    box-shadow: 0px 8px 24px #393E4675;
+    color: #fff;
+    transform: translateY(-1px);
+    transition: all 0.3s ease 0s;
+}
+
+.btn-secondary:focus {
+    background-color: #393E46;
+    box-shadow: 0px 8px 24px #393E4675;
+    transform: translateY(-1px);
+    border: none;
+}
+
+.btn-danger {
+    width: 150px;
+    height: 45px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #FFF;
+    background-color: #ef4f4f;
+    border: none;
+    border-radius: 45px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-danger:hover {
+    background-color: #f35858;
+    box-shadow: 0px 8px 24px #f3585875;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.btn-outline-primary {
+    width: 140px;
+    height: 40px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #00ADB5;
+    background-color: none;
+    border: none;
+    border-radius: 45px;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 10px 30px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: #00ADB5;
+}
+
+.btn-outline-primary:hover {
+    background-color: #00ADB5;
+    box-shadow: 0px 8px 24px #2fb1b875;
+    color: #fff;
+    transform: translateY(-1px);
+    border: none;
+}
+
+.btn-outline-primary:active {
+    background-color: #00ADB5;
+    box-shadow: 0px 8px 24px #2fb1b875;
+    color: #fff;
+    transform: translateY(-1px);
+    border: none;
+}
+
+.btn-outline-secondary {
+    width: 140px;
+    height: 40px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #393E46;
+    border: none;
+    border-radius: 45px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: #393E46;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #393E46;
+    box-shadow: 0px 8px 24px #393E4675;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+/* Pagination */
+.page-link {
+    border: none;
+    color: #2fb1b8;
+    margin: 0 2px;
+}
+
+.page-item.active .page-link {
+    background-color: #2fb1b8;
+    border-radius: 8px;
+}
+
+.pagination a:hover {
+    background-color: #EEE;
+    border-radius: 8px;
+    color: #2fb1b8;
+}
+
+/* Form Control */
+#boxcari {
+    border-radius: 45px;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all 0.3s ease 0s;
+}
+
+#boxcari:focus {
+    border: none;
+    box-shadow: 0px 8px 24px #393E4675;
+    transform: translateY(-1px);
+    transition: all 0.3s ease 0s;
+}
+
+/* Sosial Media Button */
+i.fab.fa-instagram {
+    transition: all 1s;
+    color: #393E46;
+}
+
+i.fab.fa-instagram:hover {
+    transition: all 0.5s;
+    color: #000000;
+}
+
+i.fab.fa-twitter {
+    transition: all 0.5s;
+    color: #393E46;
+}
+
+i.fab.fa-twitter:hover {
+    transition: all 0.5s;
+    color: #000000;
+}
+
+.dot {
+    margin: -10px;
+    position: relative;
+    top: -30px;
+    right: -5px;
+    background: #00ADB5;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+}
+
+.dot1 {
+    margin: -10px;
+    position: relative;
+    top: -25px;
+    right: -38px;
+    background: #00ADB5;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#navbar {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.pagination a {
+    transition: background-color .3s;
+}
+
+#head {
+    margin-top: 60px;
+}
+
+.jumbotron {
+    padding: 0;
+    border-radius: 0;
+    background-color: #EEE;
+}
+
+#view {
+    position: relative;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#view .container {
+    position: relative;
+    z-index: 2;
+    padding: 2px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.jumbotron-background {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.5;
+}
+
+img.blur {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='5');
+
+}
+
+#home {
+    margin: 20px 0;
+}
+
+.shadow-sm {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-body .card-text {
+    color: #808080;
+}
+
+.card-img,
+.card-img-top,
+.thumbnail {
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+footer.text-muted {
+    background-color: #393E46;
+    color: #EEE !important;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+
+    .jumbotron {
+        padding: 20px !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 0;
+        margin: 0;
+    }
+}
